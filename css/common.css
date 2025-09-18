@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'メイリオ','Meiryo','Hiragino Kaku Gothic Pro', sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+/*Google Fonts*/
+.pirata-one {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Google Font for Japanese Language*/
+.shippori-mincho {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#background-image{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header h1{
+  padding: 10rem 0 1.5rem 3rem;
+  color: #F7F7F7;
+  font-size: xxx-large;
+}
+p{
+  padding: 0 0 1.5rem 3rem;
+  color: #F7F7F7;
+  font-size: 18px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: #bbbb;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+nav ul li{
+  margin: 0 50px 0 0;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+
+  text-shadow: 0 0 0 #000;
+  transition: color linear 0.1s , text-shadow linear 0.1s;
+}
+nav ul li a:hover{
+  color: #fff;
+  text-shadow: 0 0 20px #000 , 0 0 20px #000;
+}
+nav ul li a:active{
+  color: #000;
+  text-shadow: 0 0 0 #000;
+}
+
+footer{
+  padding: 20px 0;
+  text-align: center;
+  font-size: 23px;
+  color: #FBF8EF;
+  background-color: #222222;
+}
